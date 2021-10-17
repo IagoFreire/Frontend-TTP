@@ -18,11 +18,13 @@ export const Container = styled.div`
       background: var(--blue-light);
     }
 
-    td:first-child, th:first-child {
+    td:first-child,
+    th:first-child {
       border-top-left-radius: 0.25rem;
       border-bottom-left-radius: 0.25rem;
     }
-    td:last-child, th:last-child {
+    td:last-child,
+    th:last-child {
       border-top-right-radius: 0.25rem;
       border-bottom-right-radius: 0.25rem;
     }
@@ -45,8 +47,10 @@ export const Container = styled.div`
       text-align: center;
     }
 
-    tr {
-      cursor: pointer;
+    tbody {
+      tr {
+        cursor: pointer;
+      }
     }
   }
 `;

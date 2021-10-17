@@ -25,10 +25,12 @@ const Home: React.FC = () => {
           <Table />
         </div>
       </Container>
-      <NewEmployeeModal
-        isOpen={isNewEmployeeModalOpen}
-        onRequestClose={handleCloseNewEmployeeModal}
-      />
+      {isNewEmployeeModalOpen && (
+        <NewEmployeeModal
+          isOpen={isNewEmployeeModalOpen}
+          onRequestClose={handleCloseNewEmployeeModal}
+        />
+      )}
     </>
   );
 };

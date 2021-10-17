@@ -4,16 +4,16 @@
 
 ## Funcionalidades
 
-- Incluir um novo Funcionário.
+- Incluir um novo Funcionário. <br />
 Para incluir um funcionário utilize o Registrar Funcionário.
 
-- Atualizar um Funcionário cadastrado.
+- Atualizar um Funcionário cadastrado. <br />
 Para atualizar as informações de um funcionário clique no funcionário que deseja editar na tabela, altere as informações que deseja e clique em salvar.
 
-- Excluir um Funcionário cadastrado.
+- Excluir um Funcionário cadastrado. <br />
 Para excluir um funcionário clique no funcionário que deseja excluir na tabela e clique no botão excluir.
 
-- Listar os Funcionário cadastrados.
+- Listar os Funcionário cadastrados. <br />
 A lista de funcionários é exibida na tabela da página inicial e é atualizada conforme ocorre alterações.
 
 ## Como iniciar o projeto
